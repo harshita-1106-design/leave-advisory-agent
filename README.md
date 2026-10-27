@@ -1,3 +1,5 @@
+Live app: https://transcendent-gnome-27ca53.netlify.app
+Backend API: https://leave-advisory-agent.onrender.com/docs
 # Employee Leave Advisory Agent
 
 A leave-management project with a FastAPI backend and an HTML/JavaScript frontend.
