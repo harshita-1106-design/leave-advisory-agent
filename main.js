@@ -1,6 +1,6 @@
 // ====== SETTINGS ======
 // Backend ka address. IP badle to sirf yahi ek line change karni hai.
-const BASE_URL = "http://10.149.229.176:8000";
+const BASE_URL = "https://leave-advisory-agent.onrender.com";
 
 // Dropdown ke naam -> backend ke leave codes
 // (CL pakka hai; SL aur AL backend ke policy.json se match kar lena)
