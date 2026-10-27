@@ -1,0 +1,8 @@
+{
+  "holidays": ["2026-11-08", "2026-12-25"],
+  "rules": {
+    "CL": {"max_days": 3, "advance": 1},
+    "SL": {"max_days": null, "advance": 0},
+    "EL": {"max_days": 10, "advance": 7}
+  }
+}

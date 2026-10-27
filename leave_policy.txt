@@ -1,0 +1,4 @@
+Casual Leave (CL): 12 days per year . Max 3 consecutive days. Apply 1 day in advance.
+Sick Leave (SL): 10 days per year. Medical certificate needed if more than 2 days.
+Earned Leave (EL): 15 days per year. Max 10 consecutive days. Apply 7 days in advance.
+Weekends and company holidays are not counted as leave days.
