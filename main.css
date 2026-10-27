@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    color: #2447a8;
+    font-size: 32px;
+}
+
+p {
+    color: #444444;
+    font-size: 18px;
+}
+h2 {
+    color: #2447a8;
+    margin-top: 35px;
+}
+
+form {
+    background-color: white;
+    max-width: 450px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    color: #333333;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2447a8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #18357e;
+}
+button {
+    background-color: #2447a8;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* Leave Eligibility Result Design */
+
+.result-card {
+    background-color: #ffffff !important;
+    color: #24324a;
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.result-card h2 {
+    color: #173b70;
+    text-align: center;
+}
+
+.result-card h3 {
+    color: #2457a7;
+    margin-top: 20px;
+}
+
+.result-card p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#confirmRequest {
+    background-color: #173b70;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+#confirmRequest:hover {
+    background-color: #2457a7;
+}

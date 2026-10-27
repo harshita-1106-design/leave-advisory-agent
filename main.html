@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Leave Advisory Agent</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <h1>Employee Leave Advisory Agent</h1>
+    <p>Welcome! Manage your leave requests easily.</p>
+<h2>Apply for Leave</h2>
+
+<form>
+    <label>Employee ID:</label><br>
+    <input type="text" placeholder="Enter Employee ID" required>
+    <br><br>
+
+    <label>Leave Type:</label><br>
+    <select required>
+        <option value="">Select Leave Type</option>
+        <option>Annual Leave</option>
+        <option>Sick Leave</option>
+        <option>Casual Leave</option>
+    </select>
+    <br><br>
+
+    <label>Start Date:</label><br>
+    <input type="date" required>
+    <br><br>
+
+    <label>End Date:</label><br>
+    <input type="date" required>
+    <br><br>
+
+    <label>Reason for Leave:</label><br>
+    <textarea placeholder="Enter reason"></textarea>
+    <br><br>
+
+    <button type="submit">Check Leave Eligibility</button>
+</form>
+<hr>
+
+<h2>Leave Eligibility & Advisory Result</h2>
+
+<div class="result-card">
+    <p><strong>Employee ID:</strong> <span id="resultEmployee">-</span></p>
+
+    <p><strong>Leave Type:</strong> <span id="resultLeaveType">-</span></p>
+    <p><strong>Reason for Leave:</strong>
+<span id="resultReason">-</span></p>
+<p><strong>Start Date:</strong>
+<span id="resultStartDate">-</span></p>
+
+<p><strong>End Date:</strong>
+<span id="resultEndDate">-</span></p>
+
+    <p><strong>Available Leave Balance:</strong> <span id="leaveBalance">Not checked yet</span></p>
+
+    <p><strong>Requested Working Days:</strong> <span id="workingDays">Not calculated yet</span></p>
+
+    <p><strong>Eligibility Status:</strong> <span id="eligibilityStatus">Waiting for verification</span></p>
+
+    <h3>Policy Explanation</h3>
+    <p id="policyExplanation">Your leave policy details will appear here.</p>
+
+    <h3>Alternative Suggestions</h3>
+    <p id="alternativeSuggestions">Suggestions will appear here if needed.</p>
+
+    <button type="button" id="confirmRequest">
+        Confirm & Submit Request
+    </button>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
